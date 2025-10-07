@@ -9,6 +9,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "folium" },
     { name = "kagglehub" },
+    { name = "networkx" },
     { name = "numpy" },
     { name = "pandas" },
     { name = "scikit-learn" },
@@ -21,6 +22,7 @@ dependencies = [
 requires-dist = [
     { name = "folium", specifier = ">=0.20.0" },
     { name = "kagglehub", specifier = ">=0.3.13" },
+    { name = "networkx", specifier = ">=3.5" },
     { name = "numpy", specifier = ">=2.3.3" },
     { name = "pandas", specifier = ">=2.3.2" },
     { name = "scikit-learn", specifier = ">=1.7.2" },
@@ -413,6 +415,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/e0/47/dd32fa426cc72114383ac549964eecb20ecfd886d1e5ccf5340b55b02f57/mpmath-1.3.0.tar.gz", hash = "sha256:7a28eb2a9774d00c7bc92411c19a89209d5da7c4c9a9e227be8330a23a25b91f", size = 508106 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl", hash = "sha256:a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c", size = 536198 },
+]
+
+[[package]]
+name = "networkx"
+version = "3.5"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/6c/4f/ccdb8ad3a38e583f214547fd2f7ff1fc160c43a75af88e6aec213404b96a/networkx-3.5.tar.gz", hash = "sha256:d4c6f9cf81f52d69230866796b82afbccdec3db7ae4fbd1b65ea750feed50037", size = 2471065 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/eb/8d/776adee7bbf76365fdd7f2552710282c79a4ead5d2a46408c9043a2b70ba/networkx-3.5-py3-none-any.whl", hash = "sha256:0030d386a9a06dee3565298b4a734b68589749a544acbb6c412dc9e2489ec6ec", size = 2034406 },
 ]
 
 [[package]]
